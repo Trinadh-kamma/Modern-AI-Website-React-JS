@@ -42,9 +42,9 @@
   border-radius: 50px;
   border:none;
   outline:none;
-  font-size:14px;
-  line-height:25px;
-  font-family:Manrope;
+  font-size:16px;
+  line-height:30px;
+  font-family:var(--font-family);
   font-weight:bold;
   cursor:pointer;
 }
@@ -69,5 +69,21 @@
   .gpt3__cta-button {
     margin:1rem 0rem;
   }
+
+  .button {
+    padding:0.5rem 1rem;
+    font-size:14px;
+    line-height: 24px;
+  }
+
   
+}
+
+
+@media screen and (max-width:550px) {
+  .button {
+    padding:0.5rem 1rem;
+    font-size:12px;
+    line-height: 20px;
+  }
 }
